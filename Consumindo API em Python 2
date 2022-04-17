@@ -1,0 +1,19 @@
+1. Envia dados para serem processados (por exemplo, dados de um formulário HTML) para o recurso especificado. Os dados são incluídos no corpo do comando. Sua utilização em uma requisição ocorre quando é necessário enviar dados ao servidor para serem processados, geralmente por um programa script identificado no Request-URI. Uma requisição por meio desse método sempre requer que as informações submetidas sejam incluídas no corpo da mensagem e formatadas como uma query string, além de conter cabeçalhos adicionais especificando seu tamanho (Content-Length) e seu formato (Content-Type).
+
+2. -
+
+3. HTTP
+
+4. HTTP: Short-lived connections (conexões de curta duração) tem dois grandes problemas: o tempo necessário para estabelecer uma nova conexão é significativo, e desempenho da conexão TCP subjacente melhora somente quando esta conexão tem sido usado há algum tempo (conexão quente). Para aliviar estes problemas, foi concebido o conceito de uma conexão persistente, mesmo antes de HTTP/1.1. Alternativamente, este pode ser chamado uma conexão keep-alive. É uma conexão persistente que permanece aberto por um período e pode ser reutilizado por vários pedidos, salvando a necessidade de um novo handshake TCP, e utilizando recursos para melhorar o desempenho do TCP. Esta conexão não vai ficar aberta para sempre: conexões ociosas são fechadas depois de algum tempo (um servidor pode usar o cabeçalho Keep-Alive para especificar um tempo mínimo de conexão que deve ser mantido aberto). SMTP: Usa conexões persistentes – Usa o TCP e a porta 25.
+
+5- Toda a motivação dos cookies é coletar dados do usuário para fins de funcionamento, de acessibilidade e de publicidade
+
+6- Um cookie HTTP (um cookie web ou cookie de navegador) é um pequeno fragmento de dados que um servidor envia para o navegador do usuário. O navegador pode armazenar estes dados e enviá-los de volta na próxima requisição para o mesmo servidor.
+
+7- sim
+
+8- sim
+
+9- Cookies em sites são pequenos arquivos de texto que ficam salvos no navegador. São criados em sites salvando a navegação do usuário, podem melhorar a velocidade da página e evitar que o usuário precise repetir ações como preencher formulários, pois já deixam esses dados salvos ao acessar a página.
+
+10- Sou a favor, pois Cookies são pedaços de código que dão a um site uma espécie de memória de curto prazo, permitindo que ele se lembre de pequenos pedaços de sua informação de navegação, como suas informações de login e preferências de navegação, para oferecer a você uma experiência mais personalizada
